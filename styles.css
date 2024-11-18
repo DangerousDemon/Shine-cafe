@@ -1,0 +1,136 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+header {
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+    width: 80px; /* Increased size */
+    vertical-align: middle;
+}
+
+header h1 {
+    display: inline;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+nav a {
+    color: #e0e0e0;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+}
+
+.tabs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tab-button {
+    background-color: #333;
+    border: 2px solid #555;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    color: #e0e0e0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.tab-button:hover {
+    background-color: #555;
+    color: white;
+}
+
+#search-bar {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 2px solid #555;
+    border-radius: 5px;
+    background-color: #333;
+    color: #e0e0e0;
+}
+
+#menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.menu-item {
+    background-color: #1f1f1f;
+    border: 1px solid #333;
+    margin: 10px;
+    padding: 10px;
+    width: calc(33.333% - 40px);
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.menu-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.menu-item img {
+    max-width: 40%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.menu-item-details {
+    margin-top: 10px;
+}
+
+.menu-item-details h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.menu-item-details p {
+    margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+    .menu-item {
+        width: calc(50% - 40px);
+    }
+}
+
+@media (max-width: 480px) {
+    .menu-item {
+        width: calc(100% - 40px);
+    }
+}
