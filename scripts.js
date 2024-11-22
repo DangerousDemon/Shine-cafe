@@ -1,3 +1,15 @@
+document.addEventListener('DOMContentLoaded', () => {
+    filterMenu('all');
+    document.querySelectorAll('.tab-button').forEach(button => {
+        button.addEventListener('click', (event) => {
+            filterMenu(event.target.dataset.category);
+        });
+    });
+    document.getElementById('search-bar').addEventListener('input', (event) => {
+        searchMenu(event.target.value);
+    });
+});
+
 const menuItems = [
     { name: 'Lavazza Black Coffee', category: 'coffee', price: 15, image: 'lavazza_black_coffee.jpg', description: 'A strong and bold espresso base.' },
     { name: 'Lavazza Milk Coffee', category: 'coffee', price: 18, image: 'lavazza_milk_coffee.jpg', description: 'Espresso with smooth and creamy milk.' },
@@ -42,7 +54,7 @@ const menuItems = [
     { name: 'Muffin', category: 'short-eats', price: 10, image: 'muffin.jpg', description: 'A fluffy and sweet muffin.' },
     { name: 'Pudding Caramel', category: 'short-eats', price: 12, image: 'pudding_caramel.jpg', description: 'A creamy caramel pudding.' },
     { name: 'Boiled Egg', category: 'short-eats', price: 5, image: 'boiled_egg.jpg', description: 'A simple and nutritious boiled egg.' },
-    { name: 'Coke Float', category: 'soft-drinks', price: 25, image: 'coke_float.jpg', description: 'A refreshing combination of Coca-Cola and vanilla ice cream.' } // Updated price
+    { name: 'Coke Float', category: 'soft-drinks', price: 25, image: 'coke_float.jpg', description: 'A refreshing combination of Coca-Cola and vanilla ice cream.' }
 ];
 
 function filterMenu(category) {
@@ -57,7 +69,3 @@ function filterMenu(category) {
             row.classList.add('menu-row');
             menuContainer.appendChild(row);
         }
-        const menuItem = document.createElement('div');
-        menuItem.classList.add('menu-item');
-        menuItem.innerHTML = `
-            <img src="${item.image}" alt="${item.name
