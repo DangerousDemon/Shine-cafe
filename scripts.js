@@ -69,3 +69,45 @@ function filterMenu(category) {
             row.classList.add('menu-row');
             menuContainer.appendChild(row);
         }
+        const menuItem = document.createElement('div');
+        menuItem.classList.add('menu-item');
+        menuItem.innerHTML = `
+            <img src="${item.image}" alt="${item.name}">
+            <div class="menu-item-details">
+                <h3>${item.name}</h3>
+                <p>${item.description}</p>
+                <p>Price: MVR ${item.price}</p>
+            </div>
+        `;
+        row.appendChild(menuItem);
+    });
+}
+
+function searchMenu(query) {
+    const filteredItems = menuItems.filter(item => item.name.toLowerCase().includes(query.toLowerCase()));
+    displayMenu(filteredItems);
+}
+
+function displayMenu(items) {
+    const menuContainer = document.getElementById('menu-items');
+    menuContainer.innerHTML = '';
+    let row;
+    items.forEach((item, index) => {
+        if (index % 3 === 0) {
+            row = document.createElement('div');
+            row.classList.add('menu-row');
+            menuContainer.appendChild(row);
+        }
+        const menuItem = document.createElement('div');
+        menuItem.classList.add('menu-item');
+        menuItem.innerHTML = `
+            <img src="${item.image}" alt="${item.name}">
+            <div class="menu-item-details">
+                <h3>${item.name}</h3>
+                <p>${item.description}</p>
+                <p>Price: MVR ${item.price}</p>
+            </div>
+        `;
+        row.appendChild(menuItem);
+    });
+}
