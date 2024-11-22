@@ -22,7 +22,7 @@ const menuItems = [
     { name: 'Cardamom Tea', category: 'tea', price: 10, image: 'cardamom_tea.jpg', description: 'A fragrant and spicy tea.', outOfStock: false },
     { name: 'Masala Tea', category: 'tea', price: 10, image: 'masala_tea.jpg', description: 'A flavorful and aromatic tea with spices.', outOfStock: false },
     { name: 'Black Tea', category: 'tea', price: 3, image: 'black_tea.jpg', description: 'A strong and bold black tea.', outOfStock: false },
-    { name: 'Milk Tea', category: 'tea', price: 8, image: 'milk_tea.jpg', description: 'A creamy and comforting tea.', outOfStock: false }
+    { name: 'Milk Tea', category: 'tea', price: 8, image: 'milk_tea.jpg', description: 'A creamy and comforting tea.', outOfStock: false },
     { name: 'Coca Cola', category: 'soft-drinks', price: 15, image: 'coca_cola.jpg', description: 'A classic carbonated beverage.', outOfStock: false },
     { name: 'Sprite', category: 'soft-drinks', price: 15, image: 'sprite.jpg', description: 'A refreshing lemon-lime soda.', outOfStock: false },
     { name: 'Fanta Orange', category: 'soft-drinks', price: 15, image: 'fanta_orange.jpg', description: 'A classic orange soda.', outOfStock: false },
@@ -35,7 +35,22 @@ const menuItems = [
     { name: 'Chocolate Ice Cream', category: 'ice-cream', price: 20, image: 'ice_cream_chocolate.jpg', description: 'Rich and decadent chocolate ice cream.', outOfStock: false },
     { name: 'Strawberry Ice Cream', category: 'ice-cream', price: 20, image: 'ice_cream_strawberry.jpg', description: 'Sweet and refreshing strawberry ice cream.', outOfStock: false },
     { name: 'Vanilla Ice Cream', category: 'ice-cream', price: 20, image: 'ice_cream_vanilla.jpg', description: 'Classic and creamy vanilla ice cream.', outOfStock: false },
-    { name: 'Pistachio Ice Cream', category: 'ice-cream', price: 15, image: 'ice_cream_pistachio.jpg', description: 'A nutty and flavorful ice cream.', outOfStock: false }
+    { name: 'Pistachio Ice Cream', category: 'ice-cream', price: 15, image: 'ice_cream_pistachio.jpg', description: 'A nutty and flavorful ice cream.', outOfStock: false },
+    { name: 'Bavarian Chocolate Ice Cream', category: 'ice-cream', price: 20, image: 'ice_cream_bavarian_chocolate.jpg', description: 'A rich and decadent chocolate ice cream with a Bavarian twist.', outOfStock: false }
+];
+const menuItems = [
+    { name: 'Kulhi Boakiba', category: 'short-eats', price: 5, image: 'kulhi_boakiba.jpg', description: 'A delicious Maldivian fish cake.', outOfStock: false },
+    { name: 'Kavaabu', category: 'short-eats', price: 5, image: 'kavaabu.jpg', description: 'Deep-fried fritters made with fish and spices.', outOfStock: false },
+    { name: 'Mas Roshi', category: 'short-eats', price: 8, image: 'mas_roshi.jpg', description: 'A traditional Maldivian fish flatbread.', outOfStock: false },
+    { name: 'Bajiya', category: 'short-eats', price: 5, image: 'bajiya.jpg', description: 'A savory pastry filled with fish, coconut, and spices.', outOfStock: false },
+    { name: 'Rolls', category: 'short-eats', price: 6, image: 'rolls.jpg', description: 'Fried rolls filled with vegetables or meat.', outOfStock: false },
+    { name: 'Sausage', category: 'short-eats', price: 7, image: 'sausage.jpg', description: 'Grilled or fried sausages.', outOfStock: false },
+    { name: 'Kanamadu Cafe', category: 'short-eats', price: 12, image: 'kanamadu_cafe.jpg', description: 'A delicious Maldivian dessert made with rice and banana.', outOfStock: false },
+    { name: 'Butter Cake', category: 'short-eats', price: 10, image: 'butter_cake.jpg', description: 'A rich and moist butter cake.', outOfStock: false },
+    { name: 'Muffin', category: 'short-eats', price: 10, image: 'muffin.jpg', description: 'A fluffy and sweet muffin.', outOfStock: false },
+    { name: 'Pudding Caramel', category: 'short-eats', price: 12, image: 'pudding_caramel.jpg', description: 'A creamy caramel pudding.', outOfStock: false },
+    { name: 'Boiled Egg', category: 'short-eats', price: 5, image: 'boiled_egg.jpg', description: 'A simple and nutritious boiled egg.', outOfStock: false },
+    { name: 'Coke Float', category: 'soft-drinks', price: 25, image: 'coke_float.jpg', description: 'A refreshing combination of Coca-Cola and vanilla ice cream.', outOfStock: false }
 ];
 
 function filterMenu(category) {
