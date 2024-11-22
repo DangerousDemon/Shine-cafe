@@ -40,7 +40,7 @@ const menuItems = [
     { name: 'Kulhi Boakiba', category: 'short-eats', price: 5, image: 'kulhi_boakiba.jpg', description: 'A delicious Maldivian fish cake.', outOfStock: false },
     { name: 'Kavaabu', category: 'short-eats', price: 5, image: 'kavaabu.jpg', description: 'Deep-fried fritters made with fish and spices.', outOfStock: false },
     { name: 'Mas Roshi', category: 'short-eats', price: 8, image: 'mas_roshi.jpg', description: 'A traditional Maldivian fish flatbread.', outOfStock: false },
-    { name: 'Bajiya', category: 'short-eats', price: 5, image: 'bajiya.jpg', description: 'A savory pastry filled with fish, coconut, and spices.', outOfStock: false },
+    { name: 'Bajiya', category: 'short-eats', price: 5, image: 'Bajiya.jpg', description: 'A savory pastry filled with fish, coconut, and spices.', outOfStock: false },
     { name: 'Rolls', category: 'short-eats', price: 6, image: 'rolls.jpg', description: 'Fried rolls filled with vegetables or meat.', outOfStock: false },
     { name: 'Sausage', category: 'short-eats', price: 7, image: 'sausage.jpg', description: 'Grilled or fried sausages.', outOfStock: false },
     { name: 'Kanamadu Cafe', category: 'short-eats', price: 12, image: 'kanamadu_cafe.jpg', description: 'A delicious Maldivian dessert made with rice and banana.', outOfStock: false },
