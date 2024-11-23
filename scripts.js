@@ -37,47 +37,29 @@ const menuItems = [
     { name: 'Vanilla Ice Cream', category: 'ice-cream', price: 20, image: 'ice_cream_vanilla.jpg', description: 'Classic and creamy vanilla ice cream.', outOfStock: false },
     { name: 'Pistachio Ice Cream', category: 'ice-cream', price: 15, image: 'ice_cream_pistachio.jpg', description: 'A nutty and flavorful ice cream.', outOfStock: false },
     { name: 'Bavarian Chocolate Ice Cream', category: 'ice-cream', price: 20, image: 'ice_cream_bavarian_chocolate.jpg', description: 'A rich and decadent chocolate ice cream with a Bavarian twist.', outOfStock: false },
+    { name: 'Three Cheers Chocolate Ice Cream', category: 'ice-cream', price: 20, image: 'ice_cream_three_cheers_chocolate.jpg', description: 'A triple chocolate indulgence.', outOfStock: false },
+    { name: 'Cotton Candy Ice Cream', category: 'ice-cream', price: 20, image: 'ice_cream_cotton_candy.jpg', description: 'A sweet and fluffy ice cream.', outOfStock: false },
+    { name: 'Mango Ice Cream', category: 'ice-cream', price: 15, image: 'ice_cream_mango.jpg', description: 'A refreshing and tropical ice cream.', outOfStock: false },
+    { name: 'Fruit & Nuts Ice Cream', category: 'ice-cream', price: 15, image: 'ice_cream_fruit_nuts.jpg', description: 'A delicious combination of fruits and nuts.', outOfStock: false },
+    { name: 'Sugar Cone', category: 'cones', price: 5, image: 'sugar_cone.jpg', description: 'Sugar cone for ice cream.', outOfStock: false },
+    { name: 'Normal Cone', category: 'cones', price: 0, image: 'normal_cone.jpg', description: 'Normal cone for ice cream.', outOfStock: false },
     { name: 'Kulhi Boakiba', category: 'short-eats', price: 5, image: 'kulhi_boakiba.jpg', description: 'A delicious Maldivian fish cake.', outOfStock: false },
     { name: 'Kavaabu', category: 'short-eats', price: 5, image: 'kavaabu.jpg', description: 'Deep-fried fritters made with fish and spices.', outOfStock: false },
     { name: 'Mas Roshi', category: 'short-eats', price: 8, image: 'mas_roshi.jpg', description: 'A traditional Maldivian fish flatbread.', outOfStock: false },
-    { name: 'Bajiya', category: 'short-eats', price: 5, image: 'Bajiya.jpg', description: 'A savory pastry filled with fish, coconut, and spices.', outOfStock: false },
+    { name: 'Bajiya', category: 'short-eats', price: 5, image: 'bajiya.jpg', description: 'A savory pastry filled with fish, coconut, and spices.', outOfStock: false },
     { name: 'Rolls', category: 'short-eats', price: 6, image: 'rolls.jpg', description: 'Fried rolls filled with vegetables or meat.', outOfStock: false },
     { name: 'Sausage', category: 'short-eats', price: 7, image: 'sausage.jpg', description: 'Grilled or fried sausages.', outOfStock: false },
     { name: 'Kanamadu Cafe', category: 'short-eats', price: 12, image: 'kanamadu_cafe.jpg', description: 'A delicious Maldivian dessert made with rice and banana.', outOfStock: false },
     { name: 'Butter Cake', category: 'short-eats', price: 10, image: 'butter_cake.jpg', description: 'A rich and moist butter cake.', outOfStock: false },
-    { name: 'Muffin', category: 'short-eats', price: 10, image: 'muffin.jpg', description: 'A fluffy and sweet muffin.', outOfStock: true },
+    { name: 'Muffin', category: 'short-eats', price: 10, image: 'muffin.jpg', description: 'A fluffy and sweet muffin.', outOfStock: false },
     { name: 'Pudding Caramel', category: 'short-eats', price: 12, image: 'pudding_caramel.jpg', description: 'A creamy caramel pudding.', outOfStock: false },
     { name: 'Boiled Egg', category: 'short-eats', price: 5, image: 'boiled_egg.jpg', description: 'A simple and nutritious boiled egg.', outOfStock: false },
-    { name: 'Coke Float', category: 'soft-drinks', price: 25, image: 'coke_float.jpg', description: 'A refreshing combination of Coca-Cola and vanilla ice cream.', outOfStock: false }
-];
+{ name: 'Coke Float', category: 'soft-drinks', price: 25, image: 'coke_float.jpg', description: 'A refreshing combination of Coca-Cola and vanilla ice cream.', outOfStock: false }
+]
 
 function filterMenu(category) {
-    const menuContainer = document.getElementById('menu-items');
-    menuContainer.innerHTML = '';
     const filteredItems = category === 'all' ? menuItems : menuItems.filter(item => item.category === category);
-
-    let row;
-    filteredItems.forEach((item, index) => {
-        if (index % 3 === 0) {
-            row = document.createElement('div');
-            row.classList.add('menu-row');
-            menuContainer.appendChild(row);
-        }
-        const menuItem = document.createElement('div');
-        menuItem.classList.add('menu-item');
-        menuItem.innerHTML = `
-            <div class="image-container">
-                <img src="${item.image}" alt="${item.name}">
-                                ${item.outOfStock ? '<div class="out-of-stock-overlay">Out of Stock</div>' : ''}
-            </div>
-            <div class="menu-item-details">
-                <h3>${item.name}</h3>
-                <p>${item.description}</p>
-                <p>Price: MVR ${item.price}</p>
-            </div>
-        `;
-        row.appendChild(menuItem);
-    });
+    displayMenu(filteredItems);
 }
 
 function searchMenu(query) {
@@ -88,6 +70,10 @@ function searchMenu(query) {
 function displayMenu(items) {
     const menuContainer = document.getElementById('menu-items');
     menuContainer.innerHTML = '';
+    if (items.length === 0) {
+        menuContainer.innerHTML = '<p>No items found</p>';
+        return;
+    }
     let row;
     items.forEach((item, index) => {
         if (index % 3 === 0) {
