@@ -60,7 +60,7 @@ const menuItems = [
 { name: 'Keemiya', category: 'short-eats', price: 3, image: 'Keemiya.jpg', description: 'a popular Maldivian snack,  filled with savory ingredients.', outOfStock: false },
 { name: 'Sausage Rolls', category: 'short-eats', price: 3, image: 'Sausage_Rolls.jpg', description: 'A savory snack with a crispy pastry.', outOfStock: false },
 { name: 'juice', category: 'soft-drinks', price: 5, image: 'juice.jpg', description: 'Refreshing drink.', outOfStock: false },
-{ name: 'Chocolate Cake', category: 'short-eats', price: 10, image: 'Chocolate_cake.jpg', description: 'A savory snack with a crispy pastry.', outOfStock: false }
+{ name: 'Chocolate Cake', category: 'short-eats', price: 10, image: 'Chocolate_cake.jpg', description: 'Decadent chocolate cake, moist and fudgy.', outOfStock: false }
 
 ]
 
