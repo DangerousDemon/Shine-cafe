@@ -54,7 +54,7 @@ const menuItems = [
     { name: 'Muffin', category: 'short-eats', price: 10, image: 'muffin.jpg', description: 'A fluffy and sweet chocolate muffin.', outOfStock: false },
     { name: 'Pudding Caramel', category: 'short-eats', price: 10, image: 'pudding_caramel.jpg', description: 'A creamy caramel pudding.', outOfStock: false },
     { name: 'Boiled Egg', category: 'short-eats', price: 5, image: 'boiled_egg.jpg', description: 'A simple and nutritious boiled egg.', outOfStock: false },
-{ name: 'Coke Float', category: 'soft-drinks', price: 30, image: 'coke_float.jpg', description: 'A refreshing combination of Coca-Cola and And ice cream.', outOfStock: false },
+{ name: 'Coke Float', category: 'soft-drinks', price: 30, image: 'coke_float.jpg', description: 'A refreshing combination of Coca-Cola and ice cream.', outOfStock: false },
 { name: 'Sandwich', category: 'short-eats', price: 6, image: 'Sandwich.jpg', description: 'A simple and satisfying tuna sandwich.', outOfStock: false },
 { name: 'Pancake', category: 'short-eats', price: 5, image: 'Pancake.jpg', description: 'Fluffy pancakes, golden brown and buttery soft.', outOfStock: false },
 { name: 'Keemiya', category: 'short-eats', price: 3, image: 'Keemiya.jpg', description: 'a popular Maldivian snack,  filled with savory ingredients.', outOfStock: false },
