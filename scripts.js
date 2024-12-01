@@ -55,12 +55,12 @@ const menuItems = [
     { name: 'Pudding Caramel', category: 'short-eats', price: 10, image: 'pudding_caramel.jpg', description: 'A creamy caramel pudding.', outOfStock: false },
     { name: 'Boiled Egg', category: 'short-eats', price: 5, image: 'boiled_egg.jpg', description: 'A simple and nutritious boiled egg.', outOfStock: false },
 { name: 'Coke Float', category: 'soft-drinks', price: 30, image: 'coke_float.jpg', description: 'A refreshing combination of Coca-Cola and vanilla ice cream.', outOfStock: false },
-{ name: 'Sandwich', category: 'short-eat', price: 6, image: 'Sandwich.jpg', description: 'A simple and satisfying tuna sandwich.', outOfStock: false },
-{ name: 'Pancake', category: 'short-eat', price: 5, image: 'Pancake.jpg', description: 'Fluffy pancakes, golden brown and buttery soft.', outOfStock: false },
-{ name: 'Keemiya', category: 'short-eat', price: 3, image: 'Keemiya.jpg', description: 'a popular Maldivian snack,  filled with savory ingredients.', outOfStock: false },
-{ name: 'Sausage Rolls', category: 'short-eat', price: 3, image: 'Sausage_Rolls.jpg', description: 'A savory snack with a crispy pastry.', outOfStock: false },
-{ name: 'juice', category: 'soft-drinks, price: 5, image: 'juice.jpg', description: 'Refreshing drink.', outOfStock: false },
-{ name: 'Chocolate Cake, category: 'short-eat', price: 10, image: 'Chocolate_cake.jpg', description: 'A savory snack with a crispy pastry.', outOfStock: false }
+{ name: 'Sandwich', category: 'short-eats', price: 6, image: 'Sandwich.jpg', description: 'A simple and satisfying tuna sandwich.', outOfStock: false },
+{ name: 'Pancake', category: 'short-eats', price: 5, image: 'Pancake.jpg', description: 'Fluffy pancakes, golden brown and buttery soft.', outOfStock: false },
+{ name: 'Keemiya', category: 'short-eats', price: 3, image: 'Keemiya.jpg', description: 'a popular Maldivian snack,  filled with savory ingredients.', outOfStock: false },
+{ name: 'Sausage Rolls', category: 'short-eats', price: 3, image: 'Sausage_Rolls.jpg', description: 'A savory snack with a crispy pastry.', outOfStock: false },
+{ name: 'juice', category: 'soft-drinks', price: 5, image: 'juice.jpg', description: 'Refreshing drink.', outOfStock: false },
+{ name: 'Chocolate Cake', category: 'short-eats', price: 10, image: 'Chocolate_cake.jpg', description: 'A savory snack with a crispy pastry.', outOfStock: false }
 
 ]
 
