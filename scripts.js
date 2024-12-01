@@ -49,7 +49,7 @@ const menuItems = [
     { name: 'Bajiya', category: 'short-eats', price: 5, image: 'Bajiya.jpg', description: 'A savory pastry filled with fish, coconut, and spices.', outOfStock: false },
     { name: 'Rolls', category: 'short-eats', price: 3, image: 'rolls.jpg', description: 'Fried rolls filled with vegetables or meat.', outOfStock: false },
     { name: 'Sausage', category: 'short-eats', price: 5, image: 'sausage.jpg', description: 'Grilled or fried sausages.', outOfStock: false },
-    { name: 'Kanamadu Cafe', category: 'short-eats', price: 20, image: 'kanamadu_cafe.jpg', description: 'A delicious Maldivian dessert made with rice and banana.', outOfStock: false },
+    { name: 'Kanamadu Cafe', category: 'short-eats', price: 20, image: 'kanamadu_cafe.jpg', description: 'A delicious Maldivian dessert made with Sea Almonds.', outOfStock: false },
     { name: 'Butter Cake', category: 'short-eats', price: 10, image: 'butter_cake.jpg', description: 'A rich and moist butter cake.', outOfStock: false },
     { name: 'Muffin', category: 'short-eats', price: 10, image: 'muffin.jpg', description: 'A fluffy and sweet chocolate muffin.', outOfStock: false },
     { name: 'Pudding Caramel', category: 'short-eats', price: 10, image: 'pudding_caramel.jpg', description: 'A creamy caramel pudding.', outOfStock: false },
