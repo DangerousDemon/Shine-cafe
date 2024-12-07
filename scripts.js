@@ -60,7 +60,10 @@ const menuItems = [
 { name: 'Keemiya', category: 'short-eats', price: 3, image: 'Keemiya.jpg', description: 'a popular Maldivian snack,  filled with savory ingredients.', outOfStock: false },
 { name: 'Sausage Rolls', category: 'short-eats', price: 3, image: 'Sausage_Rolls.jpg', description: 'A savory snack with a crispy pastry.', outOfStock: false },
 { name: 'juice', category: 'soft-drinks', price: 5, image: 'juice.jpg', description: 'Refreshing drink.', outOfStock: false },
-{ name: 'Chocolate Cake', category: 'short-eats', price: 10, image: 'Chocolate_cake.jpg', description: 'Decadent chocolate cake, moist and fudgy.', outOfStock: false }
+{ name: 'Chocolate Cake', category: 'short-eats', price: 10, image: 'Chocolate_cake.jpg', description: 'Decadent chocolate cake, moist and fudgy.', outOfStock: false } ,
+{ name: 'Chicken Nuggets & Chips', category: 'short-eats', price: 40, image: 'chicken_nuggets_and_chips.jpg', description: 'Crispy chicken nuggets served with golden chips.', outOfStock: false },
+    { name: 'Mississippi Mud', category: 'ice-cream', price: 25, image: 'mississippi_mud.jpg', description: 'A rich and decadent chocolate ice cream dessert.', outOfStock: false },
+    { name: 'Belgian Bliss', category: 'ice-cream', price: 25, image: 'belgian_bliss.jpg', description: 'Creamy and indulgent Belgian chocolate ice cream.', outOfStock: false }
 
 ]
 
