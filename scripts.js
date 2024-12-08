@@ -35,7 +35,7 @@ const menuItems = [
     { name: 'Chocolate Ice Cream', category: 'ice-cream', price: 15, image: 'ice_cream_chocolate.jpg', description: 'Rich and decadent chocolate ice cream.', outOfStock: false },
     { name: 'Strawberry Ice Cream', category: 'ice-cream', price: 15, image: 'ice_cream_strawberry.jpg', description: 'Sweet and refreshing strawberry ice cream.', outOfStock: false },
     { name: 'Vanilla Ice Cream', category: 'ice-cream', price: 15, image: 'ice_cream_vanilla.jpg', description: 'Classic and creamy vanilla ice cream.', outOfStock: false },
-    { name: 'Pistachio Ice Cream', category: 'ice-cream', price: 15, image: 'ice_cream_pistachio.jpg', description: 'A nutty and flavorful ice cream.', outOfStock: false },
+    { name: 'Pistachio Ice Cream', category: 'ice-cream', price: 17, image: 'ice_cream_pistachio.jpg', description: 'A nutty and flavorful ice cream.', outOfStock: false },
     { name: 'Bavarian Chocolate Ice Cream', category: 'ice-cream', price: 25, image: 'ice_cream_bavarian_chocolate.jpg', description: 'A rich and decadent chocolate ice cream with a Bavarian twist.', outOfStock: false },
     { name: 'Three Cheers Chocolate Ice Cream', category: 'ice-cream', price: 25, image: 'ice_cream_three_cheers_chocolate.jpg', description: 'A triple chocolate indulgence.', outOfStock: false },
     { name: 'Cotton Candy Ice Cream', category: 'ice-cream', price: 25, image: 'ice_cream_cotton_candy.jpg', description: 'A sweet and fluffy ice cream.', outOfStock: false },
