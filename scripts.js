@@ -23,10 +23,10 @@ const menuItems = [
     { name: 'Masala Tea', category: 'tea', price: 10, image: 'masala_tea.jpg', description: 'A flavorful and aromatic tea with spices.', outOfStock: false },
     { name: 'Black Tea', category: 'tea', price: 3, image: 'black_tea.jpg', description: 'A strong and bold black tea.', outOfStock: false },
     { name: 'Milk Tea', category: 'tea', price: 5, image: 'milk_tea.jpg', description: 'A creamy and comforting tea.', outOfStock: false },
-    { name: 'Coca Cola', category: 'soft-drinks', price: 15, image: 'coca_cola.jpg', description: 'A classic carbonated beverage.', outOfStock: false },
-    { name: 'Sprite', category: 'soft-drinks', price: 15, image: 'sprite.jpg', description: 'A refreshing lemon-lime soda.', outOfStock: false },
-    { name: 'Fanta Orange', category: 'soft-drinks', price: 15, image: 'fanta_orange.jpg', description: 'A classic orange soda.', outOfStock: false },
-    { name: 'Fanta Strawberry', category: 'soft-drinks', price: 15, image: 'fanta_strawberry.jpg', description: 'A classic strawberry soda.', outOfStock: false },
+    { name: 'Coca Cola', category: 'soft-drinks', price: 20, image: 'coca_cola.jpg', description: 'A classic carbonated beverage.', outOfStock: false },
+    { name: 'Sprite', category: 'soft-drinks', price: 20, image: 'sprite.jpg', description: 'A refreshing lemon-lime soda.', outOfStock: false },
+    { name: 'Fanta Orange', category: 'soft-drinks', price: 20, image: 'fanta_orange.jpg', description: 'A classic orange soda.', outOfStock: false },
+    { name: 'Fanta Strawberry', category: 'soft-drinks', price: 20, image: 'fanta_strawberry.jpg', description: 'A classic strawberry soda.', outOfStock: false },
     { name: '500ml Water', category: 'water', price: 5, image: '500ml_water.jpg', description: '500ml bottled water.', outOfStock: false },
     { name: '1500ml Water', category: 'water', price: 10, image: '1500ml_water.jpg', description: '1.5L bottled water.', outOfStock: false },
     { name: 'Redbull', category: 'energy-drinks', price: 45, image: 'redbull.jpg', description: 'Redbull energy drink.', outOfStock: false },
@@ -63,6 +63,7 @@ const menuItems = [
 { name: 'Chocolate Cake', category: 'short-eats', price: 10, image: 'Chocolate_cake.jpg', description: 'Decadent chocolate cake, moist and fudgy.', outOfStock: false } ,
 { name: 'Chicken Nuggets & Chips', category: 'short-eats', price: 40, image: 'chicken_nuggets_and_chips.jpg', description: 'Crispy chicken nuggets served with golden chips.', outOfStock: false },
     { name: 'Mississippi Mud', category: 'ice-cream', price: 25, image: 'mississippi_mud.jpg', description: 'A rich and decadent chocolate ice cream dessert.', outOfStock: false },
+    { name: 'Green tea', category: 'tea', price: 6, image: 'green_tea.jpg', description: 'Savor our refreshing green tea, known for its antioxidant benefits and delicate flavor.', outOfStock: false },
     { name: 'Belgian Bliss', category: 'ice-cream', price: 25, image: 'belgian_bliss.jpg', description: 'Creamy and indulgent Belgian chocolate ice cream.', outOfStock: false }
 
 ]
