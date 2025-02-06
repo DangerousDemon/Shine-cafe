@@ -64,6 +64,7 @@ const menuItems = [
 { name: 'Chicken Nuggets & Chips', category: 'short-eats', price: 40, image: 'chicken_nuggets_and_chips.jpg', description: 'Crispy chicken nuggets served with golden chips.', outOfStock: false },
     { name: 'Mississippi Mud', category: 'ice-cream', price: 25, image: 'mississippi_mud.jpg', description: 'A rich and decadent chocolate ice cream dessert.', outOfStock: false },
     { name: 'Green tea', category: 'tea', price: 6, image: 'green_tea.jpg', description: 'Savor our refreshing green tea, known for its antioxidant benefits and delicate flavor.', outOfStock: false },
+    { name: 'Baskin Robbins Dutch Chocolate', category: 'ice-cream', price: 25, image: 'Dutch_chocolate.jpg', description: 'Made with the finest cocoa. It is a rich and creamy chocolate ice cream. It has the right amount of chocolate flavour. A tempting scoop of rich chocolate ice cream with a distinct hint of cocoa that gives you a silky mouthfeel.', outOfStock: false },
     { name: 'Belgian Bliss', category: 'ice-cream', price: 25, image: 'belgian_bliss.jpg', description: 'Creamy and indulgent Belgian chocolate ice cream.', outOfStock: false }
 
 ]
